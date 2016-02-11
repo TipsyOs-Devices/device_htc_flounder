@@ -7,6 +7,10 @@ TARGET_SCREEN_WIDTH := 1280
 # Inherit some common Tesla stuff.
 $(call inherit-product, vendor/tesla/config/common_full_tablet_wifionly.mk)
 
+# Camera
+PRODUCT_PACKAGES += \
+    Snap
+
 # Enhanced NFC
 $(call inherit-product, vendor/tesla/config/nfc_enhanced.mk)
 
