@@ -2,11 +2,11 @@
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1280
 
-# Inherit some common Tesla stuff.
-$(call inherit-product, vendor/tesla/config/common_full_tablet_wifionly.mk)
+# Inherit some common Tipsy stuff.
+$(call inherit-product, vendor/tipsy/config/common_full_tablet_wifionly.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/tesla/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/tipsy/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/htc/flounder/aosp_flounder.mk)
@@ -38,7 +38,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_ID=MMB29V
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := tesla_flounder
+PRODUCT_NAME := tipsy_flounder
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 9
 
