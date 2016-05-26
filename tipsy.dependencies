@@ -3,7 +3,7 @@
    "remote":      "github",
    "repository":  "GZR-Kernels/kernel_htc_flounder",
    "target_path": "kernel/htc/flounder",
-   "branch":      "6.0-mr1"
+   "branch":      "6.0-mr2"
  },
  {
    "remote": 	  "github",
